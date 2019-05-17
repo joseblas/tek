@@ -9,7 +9,4 @@ pipelineConfig:
             options:
               retry: 4
             steps:
-              - command: /bin/sh
-                args:
-                  - -c
-                  - exit 1
+              - command: exit 1
