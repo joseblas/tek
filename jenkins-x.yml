@@ -1,4 +1,3 @@
-buildPack: scala
 pipelineConfig:
   pipelines:
     release:
