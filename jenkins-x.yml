@@ -1,1 +1,12 @@
-buildPack: scala
+pipelineConfig:
+  pipelines:
+    release:
+      pipeline:
+        agent:
+          image: busybox
+        stages:
+          - name: A no-working Stage
+            options:
+              retry: 4
+            steps:
+              - command: exit 1
