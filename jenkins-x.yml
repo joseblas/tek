@@ -5,7 +5,7 @@ pipelineConfig:
         agent:
           image: busybox
         stages:
-          - name: A Working Stage
+          - name: A no-working Stage
             options:
               retry: 4
             steps:
